@@ -1,9 +1,17 @@
+body {
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
 button {
   background-color: lightblue;
   border: none;
   border-radius: 10px;
-  font-size: 2rem;
   padding: 1.25rem 1.25rem;
-  font-family: 'Ubuntu', sans-serif;
   margin-bottom: 1rem;
+  font-family: inherit;
+  font-size: inherit;
+}
+.active {
+  opacity: 1;
+  transition: 0.5s;
 }
