@@ -44,7 +44,7 @@ function hidden4() {
   if (shown(hiddens[5])) {
     alert('read again buddy');
   }
-  alert('whoaaa go back a bit'); 
+  else alert('whoaaa go back a bit'); 
   fail('https://www.youtube.com/watch?v=izGwDsrQ1eQ')
 }
 function hidden5() {
