@@ -1,4 +1,4 @@
-const cnt = 12;
+const cnt = 18;
 let hiddens = new Array(cnt + 1);
 for (let i = 1; i <= cnt; i++) {
   hiddens[i] = document.getElementById("hidden" + i);
@@ -85,11 +85,34 @@ function hidden9() {
 
 }
 function hidden11() {
-  
+  $("#hidden10").hide();
+  $("#hidden11").hide();
+  $("#hidden12").hide();
+  show(hiddens[13]);
+  show(hiddens[14]);
+  show(hiddens[15]);
 }
 function hidden12() {
   alert('Sorry, you have to be 18+ to continue.');
   document.location.reload(true);
+}
+function hidden14() {
+  alert('Sorry, this is not family friendly.');
+  document.location.reload(true);
+}
+function hidden15() {
+  $("#hidden13").hide();
+  $("#hidden14").hide();
+  $("#hidden15").hide();
+  show(hiddens[16]);
+  show(hiddens[17]);
+  show(hiddens[18]);
+}
+function hidden17() {
+  rickroll();
+}
+function hidden18() {
+  rickroll();
 }
 function rickroll() {
   for (let i = 0; i < 4; i++) {
