@@ -1,4 +1,4 @@
-const cnt = 10;
+const cnt = 12;
 let hiddens = new Array(cnt + 1);
 for (let i = 1; i <= cnt; i++) {
   hiddens[i] = document.getElementById("hidden" + i);
@@ -59,7 +59,11 @@ function hidden6() { // general kenobi
     if (hiddens[7].style.marginLeft == "37rem") {
       $("button").hide();
       $("br").hide();
-      $("#hidden10").fadeIn(5000);
+      $("#hidden10").fadeIn(2000);
+      $("#hidden11").fadeIn(2000);
+      $("#hidden12").fadeIn(2000);
+      const br = document.createElement('br');
+      document.body.append(br);
       return;
     }
     hiddens[7].style.marginLeft = "37rem";
@@ -79,4 +83,19 @@ function hidden8() {
 }
 function hidden9() {
 
+}
+function hidden11() {
+  rickroll();
+}
+function hidden12() {
+  rickroll();
+}
+function rickroll() {
+  for (let i = 0; i < 4; i++) {
+    let video = document.createElement('video');
+    video.src = "rickroll.mp4";
+    video.autoplay = true;
+    video.style.width = "25%";
+    document.body.appendChild(video);
+  }
 }
