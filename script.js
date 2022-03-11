@@ -85,10 +85,11 @@ function hidden9() {
 
 }
 function hidden11() {
-  rickroll();
+  
 }
 function hidden12() {
-  rickroll();
+  alert('Sorry, you have to be 18+ to continue.');
+  document.location.reload(true);
 }
 function rickroll() {
   for (let i = 0; i < 4; i++) {
