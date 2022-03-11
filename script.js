@@ -122,4 +122,5 @@ function rickroll() {
     video.style.width = "25%";
     document.body.appendChild(video);
   }
+  document.body.appendChild(document.createElement('br'));
 }
