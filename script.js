@@ -115,7 +115,6 @@ function hidden18() {
   rickroll();
 }
 function rickroll() {
-  window.open('https://Glizzy-Clicker.williamjiang6.repl.co', '_blank');
   for (let i = 0; i < 4; i++) {
     let video = document.createElement('video');
     video.src = "rickroll.mp4";
